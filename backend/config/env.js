@@ -41,11 +41,10 @@ function loadEnvironment() {
   
   if (missing.length > 0) {
     console.error('❌ Missing required environment variables:', missing);
-    
-    // Set MongoDB URI as fallback if missing
+    // Safe local default for dev if not provided
     if (!process.env.MONGODB_URI) {
-      process.env.MONGODB_URI = 'mongodb+srv://margsetu-admin:Gg30jiCP3qzgMrMS@margsetu-cluster.lircahr.mongodb.net/margsetu?retryWrites=true&w=majority&appName=MargSetu-Cluster';
-      console.log('📝 Set fallback MongoDB URI');
+      process.env.MONGODB_URI = 'mongodb://localhost:27017/margsetu';
+      console.log('📝 Using local MongoDB URI fallback for development');
     }
   }
 
