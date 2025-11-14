@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Light Color Palette for MargSetu Driver App -->
+    
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light_grey">#F9F9F9</color>
+    
+    <!-- Card/Panel Colors -->
+    <color name="card_light">#FAFAFA</color>
+    <color name="card_lighter">#F5F5F5</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary_blue">#1976D2</color>
+    <color name="primary_light_blue">#64B5F6</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FFB74D</color>
+    <color name="error_red">#E57373</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    
+    <!-- Additional UI Colors -->
+    <color name="divider_color">#E0E0E0</color>
+    <color name="shadow_color">#1A000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Button States -->
+    <color name="button_pressed">#1565C0</color>
+    <color name="button_disabled">#BDBDBD</color>
+    
+    <!-- Status Bar and Navigation -->
+    <color name="status_bar">#1976D2</color>
+    <color name="navigation_bar">#FFFFFF</color>
+</resources>

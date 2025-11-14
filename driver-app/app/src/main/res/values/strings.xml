@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">MargSetu Driver</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">MargSetu Driver Login</string>
+    <string name="driver_id_hint">Driver ID</string>
+    <string name="bus_id_hint">Bus ID</string>
+    <string name="login_button">Login</string>
+    <string name="login_subtitle">Enter your credentials to start driving</string>
+    
+    <!-- Main Dashboard -->
+    <string name="welcome_message">Welcome, Driver!</string>
+    <string name="bus_info">Bus: %1$s</string>
+    <string name="driver_info">Driver: %1$s</string>
+    <string name="start_journey">Start Journey</string>
+    <string name="stop_journey">Stop Journey</string>
+    <string name="journey_active">Journey Active</string>
+    <string name="journey_inactive">Journey Inactive</string>
+    <string name="sos_button">SOS EMERGENCY</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Status Messages -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_offline_sms">Offline - SMS Backup</string>
+    <string name="gps_enabled">GPS Enabled</string>
+    <string name="gps_disabled">GPS Disabled</string>
+    <string name="location_sending">Sending Location Updates</string>
+    <string name="location_stopped">Location Updates Stopped</string>
+    <string name="sms_fallback">Using SMS Fallback</string>
+    
+    <!-- Error Messages -->
+    <string name="error_empty_fields">Please fill all fields</string>
+    <string name="error_login_failed">Login failed. Please try again.</string>
+    <string name="error_gps_permission">GPS permission is required</string>
+    <string name="error_location_services">Please enable location services</string>
+    <string name="error_network">Network error. Using SMS fallback.</string>
+    
+    <!-- SOS Alert -->
+    <string name="sos_title">Emergency Alert</string>
+    <string name="sos_message">Are you sure you want to send an emergency alert?</string>
+    <string name="sos_confirm">Send Alert</string>
+    <string name="sos_cancel">Cancel</string>
+    <string name="sos_sent">Emergency alert sent successfully</string>
+    <string name="sos_failed">Failed to send emergency alert</string>
+    
+    <!-- Permissions -->
+    <string name="permission_location_title">Location Permission Required</string>
+    <string name="permission_location_message">This app needs location permission to track bus location</string>
+    <string name="permission_sms_title">SMS Permission Required</string>
+    <string name="permission_sms_message">This app needs SMS permission for offline location updates</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_denied">Permission denied. App may not work properly.</string>
+    
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="settings">Settings</string>
+    <string name="loading">Loading...</string>
+    
+    <!-- Language Selection -->
+    <string name="language_selection">Language / भाषा / ਭਾਸ਼ਾ</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="language_changed">Language changed successfully</string>
+    <string name="restart_required">Please restart the app for language change to take effect</string>
+    <string name="changing_language">Changing language...</string>
+    
+    <!-- Dashboard Headings -->
+    <string name="current_status">Current Status</string>
+    <string name="journey_control">Journey Control</string>
+    <string name="emergency_alert">Emergency Alert</string>
+    <string name="emergency_description">Press in case of emergency to alert authorities</string>
+    <string name="never">Never</string>
+    
+    <!-- Language Selection Splash -->
+    <string name="welcome_to_margsetu">Welcome to MargSetu</string>
+    <string name="choose_your_language">Choose your preferred language</string>
+    <string name="continue_button">Continue</string>
+    <string name="skip_use_english">Skip (Use English)</string>
+</resources>

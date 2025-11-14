@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SMS gateway number used by the app (Twilio or local gateway SIM) -->
+    <string name="sms_gateway_number">+15074485995</string>
+</resources>

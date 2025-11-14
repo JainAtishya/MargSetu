@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Logo Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚍"
+        android:textSize="80sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Welcome Title -->
+    <TextView
+        android:id="@+id/tv_welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_margsetu"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/tv_choose_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_your_language"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:alpha="0.9"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Language Selection Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- English -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_english"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="English"
+                android:textSize="18sp"
+                android:textColor="@color/text_primary"
+                app:strokeColor="@color/primary_blue"
+                app:strokeWidth="2dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Hindi -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_hindi"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="हिंदी"
+                android:textSize="18sp"
+                android:textColor="@color/text_primary"
+                app:strokeColor="@color/primary_blue"
+                app:strokeWidth="2dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Punjabi -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_punjabi"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="ਪੰਜਾਬੀ"
+                android:textSize="18sp"
+                android:textColor="@color/text_primary"
+                app:strokeColor="@color/primary_blue"
+                app:strokeWidth="2dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Continue Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_continue"
+                style="@style/PrimaryButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/continue_button"
+                android:textSize="18sp"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Skip Text -->
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip_use_english"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"
+        android:alpha="0.7"
+        android:padding="8dp" />
+
+</LinearLayout>

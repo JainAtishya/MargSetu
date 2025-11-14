@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="primary_dark">#0D47A1</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#4CAF50</color>
+    <color name="secondary_light">#81C784</color>
+    <color name="secondary_dark">#2E7D32</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_color">#FFB74D</color>
+    <color name="error_color">#E57373</color>
+    <color name="warning_color">#FFB74D</color>
+    <color name="success_color">#4CAF50</color>
+    
+    <!-- Background Colors -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F9F9F9</color>
+    <color name="background_tertiary">#FAFAFA</color>
+    <color name="background_quaternary">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_hint">#9E9E9E</color>
+    
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Status Colors -->
+    <color name="online_color">#4CAF50</color>
+    <color name="offline_color">#E57373</color>
+    <color name="idle_color">#FFB74D</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#1A000000</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#1976D2</color>
+    <color name="button_primary_pressed">#0D47A1</color>
+    <color name="button_secondary">#4CAF50</color>
+    <color name="button_secondary_pressed">#2E7D32</color>
+</resources>

@@ -1,0 +1,121 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <group android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:translateX="54"
+        android:translateY="54">
+        
+        <!-- Gradient background circle for passenger app -->
+        <path
+            android:pathData="M-35,0 A35,35 0 1,1 35,0 A35,35 0 1,1 -35,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="radial"
+                    android:centerX="0"
+                    android:centerY="0"
+                    android:gradientRadius="35"
+                    android:startColor="#4FC3F7"
+                    android:centerColor="#29B6F6"
+                    android:endColor="#0288D1" />
+            </aapt:attr>
+        </path>
+
+        <!-- Modern Bus Body with gradient -->
+        <path
+            android:pathData="M-18,-8 L18,-8 Q22,-8 22,-4 L22,8 Q22,12 18,12 L-18,12 Q-22,12 -22,8 L-22,-4 Q-22,-8 -18,-8 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="-22"
+                    android:startY="-8"
+                    android:endX="22"
+                    android:endY="12"
+                    android:startColor="#FFFFFF"
+                    android:centerColor="#F8F9FA"
+                    android:endColor="#E8EAF6" />
+            </aapt:attr>
+        </path>
+        
+        <!-- Front windshield -->
+        <path
+            android:fillColor="#1565C0"
+            android:fillAlpha="0.15"
+            android:pathData="M-20,-6 L-14,-6 L-14,6 L-20,8 Z"/>
+        
+        <!-- Side windows -->
+        <path
+            android:fillColor="#1565C0"
+            android:fillAlpha="0.15"
+            android:pathData="M-9,-6 L-5,-6 Q-4,-6 -4,-5 L-4,5 Q-4,6 -5,6 L-9,6 Q-10,6 -10,5 L-10,-5 Q-10,-6 -9,-6 Z"/>
+        
+        <path
+            android:fillColor="#1565C0"
+            android:fillAlpha="0.15"
+            android:pathData="M1,-6 L5,-6 Q6,-6 6,-5 L6,5 Q6,6 5,6 L1,6 Q0,6 0,5 L0,-5 Q0,-6 1,-6 Z"/>
+            
+        <path
+            android:fillColor="#1565C0"
+            android:fillAlpha="0.15"
+            android:pathData="M11,-6 L15,-6 Q16,-6 16,-5 L16,5 Q16,6 15,6 L11,6 Q10,6 10,5 L10,-5 Q10,-6 11,-6 Z"/>
+
+        <!-- Premium wheels with gradient -->
+        <path
+            android:pathData="M-16,12 A4,4 0 1,1 -8,12 A4,4 0 1,1 -16,12 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="radial"
+                    android:centerX="-12"
+                    android:centerY="12"
+                    android:gradientRadius="4"
+                    android:startColor="#616161"
+                    android:endColor="#212121" />
+            </aapt:attr>
+        </path>
+        
+        <path
+            android:pathData="M8,12 A4,4 0 1,1 16,12 A4,4 0 1,1 8,12 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="radial"
+                    android:centerX="12"
+                    android:centerY="12"
+                    android:gradientRadius="4"
+                    android:startColor="#616161"
+                    android:endColor="#212121" />
+            </aapt:attr>
+        </path>
+        
+        <!-- Passenger-specific accent line with warm gradient -->
+        <path
+            android:pathData="M-19,0 L19,0 Q20,0 20,1 L20,1 Q20,2 19,2 L-19,2 Q-20,2 -20,1 L-20,1 Q-20,0 -19,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="-20"
+                    android:startY="0"
+                    android:endX="20"
+                    android:endY="0"
+                    android:startColor="#FF6B35"
+                    android:centerColor="#F7931E"
+                    android:endColor="#FFD23F" />
+            </aapt:attr>
+        </path>
+        
+        <!-- Passenger indicator - subtle person icon -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.9"
+            android:pathData="M-2,-3 A2,2 0 1,1 2,-3 A2,2 0 1,1 -2,-3 Z"/>
+        
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.9"
+            android:pathData="M-3,2 L3,2 Q4,2 4,3 L4,5 Q4,6 3,6 L-3,6 Q-4,6 -4,5 L-4,3 Q-4,2 -3,2 Z"/>
+        
+    </group>
+</vector>

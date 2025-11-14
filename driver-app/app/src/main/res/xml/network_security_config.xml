@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- PRODUCTION: Vercel backend (HTTPS) - Works from any network globally -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">vercel-backend-vert-psi.vercel.app</domain>
+        <domain includeSubdomains="true">vercel-backend-djmrhd1my-atishya-jains-projects.vercel.app</domain>
+        <domain includeSubdomains="true">vercel-backend-4m01nno93-atishya-jains-projects.vercel.app</domain>
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+    
+    <!-- DEVELOPMENT: Keep HTTP for local testing -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Localhost for adb reverse / emulator -->
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <!-- Allow HTTP for USB tethering connection -->
+        <domain includeSubdomains="true">192.168.137.1</domain>
+        <!-- Allow HTTP for WiFi connection -->                
+        <domain includeSubdomains="true">10.50.4.235</domain>
+        <domain includeSubdomains="true">10.72.131.102</domain>
+        <!-- Current working IP -->                                
+        <domain includeSubdomains="true">172.20.10.11</domain>
+    </domain-config>
+</network-security-config>

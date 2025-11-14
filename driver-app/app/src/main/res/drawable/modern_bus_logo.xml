@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="80dp"
+    android:viewportWidth="120"
+    android:viewportHeight="80">
+
+    <!-- Modern Bus Body - Sleek and rounded -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,20 L105,20 Q115,20 115,30 L115,55 Q115,65 105,65 L15,65 Q5,65 5,55 L5,30 Q5,20 15,20 Z"/>
+    
+    <!-- Front windshield - Modern angular design -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M8,25 L25,25 L25,50 L8,55 Z"/>
+    
+    <!-- Side windows - Clean rectangular design with rounded corners -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M32,25 L43,25 Q45,25 45,27 L45,48 Q45,50 43,50 L32,50 Q30,50 30,48 L30,27 Q30,25 32,25 Z"/>
+    
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M52,25 L63,25 Q65,25 65,27 L65,48 Q65,50 63,50 L52,50 Q50,50 50,48 L50,27 Q50,25 52,25 Z"/>
+        
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M72,25 L83,25 Q85,25 85,27 L85,48 Q85,50 83,50 L72,50 Q70,50 70,48 L70,27 Q70,25 72,25 Z"/>
+    
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M92,25 L103,25 Q105,25 105,27 L105,48 Q105,50 103,50 L92,50 Q90,50 90,48 L90,27 Q90,25 92,25 Z"/>
+
+    <!-- Modern wheels - Minimalist circles converted to paths -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M17,65 A8,8 0 1,1 33,65 A8,8 0 1,1 17,65 Z"/>
+    
+    <path
+        android:fillColor="#424242"
+        android:pathData="M87,65 A8,8 0 1,1 103,65 A8,8 0 1,1 87,65 Z"/>
+    
+    <!-- Wheel centers -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M21,65 A4,4 0 1,1 29,65 A4,4 0 1,1 21,65 Z"/>
+    
+    <path
+        android:fillColor="#757575"
+        android:pathData="M91,65 A4,4 0 1,1 99,65 A4,4 0 1,1 91,65 Z"/>
+    
+    <!-- Cool accent lines - Modern design elements -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M6.5,35 L113.5,35 Q115,35 115,36.5 Q115,38 113.5,38 L6.5,38 Q5,38 5,36.5 Q5,35 6.5,35 Z"/>
+    
+    <!-- Front headlight -->
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M8,40 A4,4 0 1,1 16,40 A4,4 0 1,1 8,40 Z"/>
+    
+    <!-- Door indicator -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M111,30 L111,50 Q112,50 112,49 L112,31 Q112,30 111,30 Z"/>
+
+</vector>

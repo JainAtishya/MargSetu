@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+      IMPORTANT: Android Network Security Config does NOT support CIDR ranges like 10.0.0.0/8.
+      You must list exact hostnames or IP literals. This config enables cleartext HTTP for
+      your development endpoints, including your PC's LAN IP used by the phone.
+    -->
+
+    <!-- Development default: allow cleartext unless overridden (safe for debug only) -->
+    <base-config cleartextTrafficPermitted="true" />
+
+    <!-- Explicitly allow the specific hosts we use during development -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <!-- Emulator loopback on real device not needed, but kept for completeness -->
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <!-- Your PC's Wi‑Fi/LAN IP that the phone connects to -->
+  <domain includeSubdomains="false">172.20.10.11</domain>
+        <!-- Production host (when using HTTPS later) -->
+        <domain includeSubdomains="true">api.margsetu.com</domain>
+    </domain-config>
+</network-security-config>

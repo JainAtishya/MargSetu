@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_blue">
+
+    <!-- Background Gradient -->
+    <View
+        android:id="@+id/background_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_gradient_background" />
+
+    <!-- Bus Container - for the "flying into windshield" effect -->
+    <RelativeLayout
+        android:id="@+id/bus_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Bus Body (larger background) -->
+        <TextView
+            android:id="@+id/bus_body"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bus_body_background"
+            android:elevation="2dp" />
+
+        <!-- Bus Windshield Frame -->
+        <TextView
+            android:id="@+id/windshield_frame"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/windshield_frame"
+            android:elevation="4dp" />
+
+        <!-- Main Bus Logo (center of windshield) - Modern design -->
+        <ImageView
+            android:id="@+id/bus_logo"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/splash_bus_logo"
+            android:elevation="6dp"
+            android:alpha="0.95"
+            android:scaleType="centerInside" />
+
+    </RelativeLayout>
+
+    <!-- Camera View Overlay (simulates going through windshield) -->
+    <View
+        android:id="@+id/camera_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/camera_transition_overlay"
+        android:alpha="0"
+        android:elevation="10dp" />
+
+    <!-- App Title (appears after animation) -->
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:alpha="0"
+        android:elevation="12dp">
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MargSetu Driver"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/app_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Public Transport"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:alpha="0.8" />
+
+    </LinearLayout>
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:indeterminateTint="@color/white"
+        android:alpha="0"
+        android:elevation="14dp" />
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- Cool gradient background circle -->
+    <path
+        android:pathData="M100,60 m-50,0 a50,50 0,1 1,100 0 a50,50 0,1 1,-100 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="100"
+                android:centerY="60"
+                android:gradientRadius="60"
+                android:startColor="#4FC3F7"
+                android:centerColor="#29B6F6"
+                android:endColor="#0288D1" />
+        </aapt:attr>
+    </path>
+
+    <!-- Modern Bus Body - Premium design with gradient -->
+    <path
+        android:pathData="M60,35 L140,35 Q150,35 150,45 L150,75 Q150,85 140,85 L60,85 Q50,85 50,75 L50,45 Q50,35 60,35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="50"
+                android:startY="35"
+                android:endX="150"
+                android:endY="85"
+                android:startColor="#FFFFFF"
+                android:centerColor="#F8F9FA"
+                android:endColor="#E8EAF6" />
+        </aapt:attr>
+    </path>
+    
+    <!-- Front windshield - Modern angular design -->
+    <path
+        android:fillColor="#1A237E"
+        android:fillAlpha="0.1"
+        android:pathData="M52,40 L65,40 L65,70 L52,75 Z"/>
+    
+    <!-- Side windows - Sleek design -->
+    <path
+        android:fillColor="#1A237E"
+        android:fillAlpha="0.15"
+        android:pathData="M73,40 L85,40 Q88,40 88,43 L88,67 Q88,70 85,70 L73,70 Q70,70 70,67 L70,43 Q70,40 73,40 Z"/>
+    
+    <path
+        android:fillColor="#1A237E"
+        android:fillAlpha="0.15"
+        android:pathData="M98,40 L110,40 Q113,40 113,43 L113,67 Q113,70 110,70 L98,70 Q95,70 95,67 L95,43 Q95,40 98,40 Z"/>
+        
+    <path
+        android:fillColor="#1A237E"
+        android:fillAlpha="0.15"
+        android:pathData="M123,40 L135,40 Q138,40 138,43 L138,67 Q138,70 135,70 L123,70 Q120,70 120,67 L120,43 Q120,40 123,40 Z"/>
+
+    <!-- Premium wheels with gradient -->
+    <path
+        android:pathData="M58,85 A12,12 0 1,1 82,85 A12,12 0 1,1 58,85 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="70"
+                android:centerY="85"
+                android:gradientRadius="12"
+                android:startColor="#616161"
+                android:endColor="#212121" />
+        </aapt:attr>
+    </path>
+    
+    <path
+        android:pathData="M118,85 A12,12 0 1,1 142,85 A12,12 0 1,1 118,85 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="130"
+                android:centerY="85"
+                android:gradientRadius="12"
+                android:startColor="#616161"
+                android:endColor="#212121" />
+        </aapt:attr>
+    </path>
+    
+    <!-- Wheel centers - Modern design -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M64,85 A6,6 0 1,1 76,85 A6,6 0 1,1 64,85 Z"/>
+    
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M124,85 A6,6 0 1,1 136,85 A6,6 0 1,1 124,85 Z"/>
+    
+    <!-- Cool accent stripe - Brand identity -->
+    <path
+        android:pathData="M52,50 L148,50 Q150,50 150,52 L150,52 Q150,54 148,54 L52,54 Q50,54 50,52 L50,52 Q50,50 52,50 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="50"
+                android:startY="50"
+                android:endX="150"
+                android:endY="50"
+                android:startColor="#FF6B35"
+                android:centerColor="#F7931E"
+                android:endColor="#FFD23F" />
+        </aapt:attr>
+    </path>
+    
+    <!-- Modern headlight -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M50,55 A5,5 0 1,1 60,55 A5,5 0 1,1 50,55 Z"/>
+    
+    <!-- Premium door handle -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M146.5,45 L146.5,70 Q147.5,70 147.5,68.5 L147.5,46.5 Q147.5,45 146.5,45 Z"/>
+
+    <!-- Subtle reflection on body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M59,38 L136,38 Q140,38 140,42 L140,42 Q140,46 136,46 L59,46 Q55,46 55,42 L55,42 Q55,38 59,38 Z"/>
+
+</vector>

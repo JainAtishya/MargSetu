@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मार्गसेतु ड्राइवर</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">मार्गसेतु ड्राइवर लॉगिन</string>
+    <string name="driver_id_hint">ड्राइवर आईडी</string>
+    <string name="bus_id_hint">बस आईडी</string>
+    <string name="login_button">लॉगिन</string>
+    <string name="login_subtitle">गाड़ी चलाना शुरू करने के लिए अपनी जानकारी दर्ज करें</string>
+    
+    <!-- Main Dashboard -->
+    <string name="welcome_message">स्वागत है, ड्राइवर!</string>
+    <string name="bus_info">बस: %1$s</string>
+    <string name="driver_info">ड्राइवर: %1$s</string>
+    <string name="start_journey">यात्रा शुरू करें</string>
+    <string name="stop_journey">यात्रा बंद करें</string>
+    <string name="journey_active">यात्रा चालू</string>
+    <string name="journey_inactive">यात्रा बंद</string>
+    <string name="sos_button">आपातकालीन सहायता</string>
+    <string name="logout">लॉगआउट</string>
+    
+    <!-- Status Messages -->
+    <string name="status_online">ऑनलाइन</string>
+    <string name="status_offline">ऑफलाइन</string>
+    <string name="gps_enabled">जीपीएस चालू</string>
+    <string name="gps_disabled">जीपीएस बंद</string>
+    <string name="location_sending">स्थान अपडेट भेजा जा रहा है</string>
+    <string name="location_stopped">स्थान अपडेट बंद</string>
+    <string name="sms_fallback">एसएमएस का उपयोग</string>
+    
+    <!-- Error Messages -->
+    <string name="error_empty_fields">कृपया सभी फ़ील्ड भरें</string>
+    <string name="error_login_failed">लॉगिन असफल। कृपया पुनः प्रयास करें।</string>
+    <string name="error_gps_permission">जीपीएस अनुमति आवश्यक है</string>
+    <string name="error_location_services">कृपया स्थान सेवा सक्षम करें</string>
+    <string name="error_network">नेटवर्क त्रुटि। एसएमएस का उपयोग हो रहा है।</string>
+    
+    <!-- SOS Alert -->
+    <string name="sos_title">आपातकालीन अलर्ट</string>
+    <string name="sos_message">क्या आप वाकई आपातकालीन अलर्ट भेजना चाहते हैं?</string>
+    <string name="sos_confirm">अलर्ट भेजें</string>
+    <string name="sos_cancel">रद्द करें</string>
+    <string name="sos_sent">आपातकालीन अलर्ट सफलतापूर्वक भेजा गया</string>
+    <string name="sos_failed">आपातकालीन अलर्ट भेजने में असफल</string>
+    
+    <!-- Permissions -->
+    <string name="permission_location_title">स्थान अनुमति आवश्यक</string>
+    <string name="permission_location_message">बस का स्थान ट्रैक करने के लिए इस ऐप को स्थान अनुमति की आवश्यकता है</string>
+    <string name="permission_sms_title">एसएमएस अनुमति आवश्यक</string>
+    <string name="permission_sms_message">ऑफलाइन स्थान अपडेट के लिए इस ऐप को एसएमएस अनुमति की आवश्यकता है</string>
+    <string name="grant_permission">अनुमति दें</string>
+    <string name="permission_denied">अनुमति अस्वीकृत। ऐप ठीक से काम नहीं कर सकता।</string>
+    
+    <!-- General -->
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="retry">पुनः प्रयास</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="loading">लोड हो रहा है...</string>
+    
+    <!-- Language Selection -->
+    <string name="language_selection">भाषा / Language / ਭਾਸ਼ਾ</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="language_changed">भाषा सफलतापूर्वक बदली गई</string>
+    <string name="restart_required">भाषा परिवर्तन के लिए कृपया ऐप को पुनः आरंभ करें</string>
+    <string name="changing_language">भाषा बदली जा रही है...</string>
+    
+    <!-- Dashboard Headings -->
+    <string name="current_status">वर्तमान स्थिति</string>
+    <string name="journey_control">यात्रा नियंत्रण</string>
+    <string name="emergency_alert">आपातकालीन चेतावनी</string>
+    <string name="emergency_description">अधिकारियों को चेतावनी देने के लिए आपातकाल की स्थिति में दबाएं</string>
+    <string name="never">कभी नहीं</string>
+    
+    <!-- Language Selection Splash -->
+    <string name="welcome_to_margsetu">मार्गसेतु में आपका स्वागत है</string>
+    <string name="choose_your_language">अपनी पसंदीदा भाषा चुनें</string>
+    <string name="continue_button">जारी रखें</string>
+    <string name="skip_use_english">छोड़ें (अंग्रेजी का उपयोग करें)</string>
+</resources>

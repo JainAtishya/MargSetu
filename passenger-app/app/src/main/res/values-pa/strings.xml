@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">ਮਾਰਗਸੇਤੁ</string>
+    <string name="passenger_app">ਯਾਤਰੀ</string>
+    
+    <!-- Splash Screen -->
+    <string name="bus_icon">ਬੱਸ ਆਈਕਨ</string>
+    <string name="loading_text">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...</string>
+    
+    <!-- Language Selection -->
+    <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="english">ਅੰਗ੍ਰੇਜ਼ੀ</string>
+    <string name="hindi">ਹਿੰਦੀ</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="continue_text">ਜਾਰੀ ਰੱਖੋ</string>
+    
+    <!-- Login -->
+    <string name="login_title">ਲਾਗਇਨ</string>
+    <string name="mobile_number">ਮੋਬਾਈਲ ਨੰਬਰ</string>
+    <string name="enter_mobile">ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
+    <string name="otp">ਓਟੀਪੀ</string>
+    <string name="enter_otp">ਓਟੀਪੀ ਦਰਜ ਕਰੋ</string>
+    <string name="send_otp">ਓਟੀਪੀ ਭੇਜੋ</string>
+    <string name="verify_otp">ਓਟੀਪੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="resend_otp">ਓਟੀਪੀ ਦੁਬਾਰਾ ਭੇਜੋ</string>
+    
+    <!-- Main Search Page -->
+    <string name="home">ਘਰ</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="trademarks">ਟ੍ਰੇਡਮਾਰਕ</string>
+    <string name="from_location">ਕਿੱਥੋਂ</string>
+    <string name="to_location">ਕਿੱਥੇ</string>
+    <string name="enter_starting_point">ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_destination">ਮੰਜ਼ਿਲ ਦਰਜ ਕਰੋ</string>
+    <string name="search_buses">ਬੱਸ ਖੋਜੋ</string>
+    <string name="current_location">ਮੌਜੂਦਾ ਸਥਾਨ ਵਰਤੋ</string>
+    
+    <!-- Bus Listing -->
+    <string name="available_buses">ਉਪਲਬਧ ਬੱਸਾਂ</string>
+    <string name="bus_number">ਬੱਸ ਨੰਬਰ</string>
+    <string name="route">ਰੂਟ</string>
+    <string name="departure_time">ਰਵਾਨਗੀ ਦਾ ਸਮਾਂ</string>
+    <string name="arrival_time">ਆਮਦ ਦਾ ਸਮਾਂ</string>
+    <string name="seats_available">ਉਪਲਬਧ ਸੀਟਾਂ</string>
+    <string name="fare">ਕਿਰਾਇਆ</string>
+    <string name="view_details">ਵੇਰਵੇ ਦੇਖੋ</string>
+    <string name="book_now">ਹੁਣੇ ਬੁੱਕ ਕਰੋ</string>
+    
+    <!-- Bus Details -->
+    <string name="bus_location">ਬੱਸ ਦੀ ਸਥਿਤੀ</string>
+    <string name="driver_details">ਡਰਾਈਵਰ ਵੇਰਵੇ</string>
+    <string name="driver_name">ਡਰਾਈਵਰ ਦਾ ਨਾਮ</string>
+    <string name="driver_phone">ਡਰਾਈਵਰ ਦਾ ਫੋਨ</string>
+    <string name="bus_details">ਬੱਸ ਵੇਰਵੇ</string>
+    <string name="occupancy">ਯਾਤਰੀ ਗਿਣਤੀ</string>
+    <string name="next_stop">ਅਗਲਾ ਸਟਾਪ</string>
+    <string name="estimated_arrival">ਅੰਦਾਜ਼ਨ ਆਮਦ</string>
+    <string name="call_driver">ਡਰਾਈਵਰ ਨੂੰ ਕਾਲ ਕਰੋ</string>
+    <string name="share_location">ਸਥਾਨ ਸਾਂਝਾ ਕਰੋ</string>
+    
+    <!-- Network & SMS -->
+    <string name="network_slow">ਨੈੱਟਵਰਕ ਹੌਲੀ ਹੈ</string>
+    <string name="sms_mode_active">SMS ਮੋਡ ਸਰਗਰਮ</string>
+    <string name="send_sms">SMS ਭੇਜੋ</string>
+    <string name="sms_instructions">SMS ਨਿਰਦੇਸ਼</string>
+    <string name="emergency_sms">ਐਮਰਜੈਂਸੀ SMS</string>
+    <string name="offline_timetable">ਔਫਲਾਈਨ ਸਮਾਂ ਸਾਰਣੀ</string>
+    
+    <!-- Common -->
+    <string name="ok">ਠੀਕ ਹੈ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="refresh">ਰਿਫਰੈਸ਼ ਕਰੋ</string>
+    <string name="loading">ਲੋਡ ਹੋ ਰਿਹਾ</string>
+    <string name="error">ਗਲਤੀ</string>
+    <string name="no_data">ਕੋਈ ਡੇਟਾ ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="permission_required">ਇਜਾਜ਼ਤ ਚਾਹੀਦੀ ਹੈ</string>
+    <string name="grant_permission">ਇਜਾਜ਼ਤ ਦਿਓ</string>
+    
+    <!-- Menu -->
+    <string name="menu_home">ਘਰ</string>
+    <string name="menu_history">ਇਤਿਹਾਸ</string>
+    <string name="menu_favorites">ਪਸੰਦੀਦਾ</string>
+    <string name="menu_profile">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="menu_settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="menu_help">ਮਦਦ</string>
+    <string name="menu_about">ਬਾਰੇ</string>
+    <string name="menu_logout">ਲਾਗ ਆਊਟ</string>
+    
+    <!-- Status Messages -->
+    <string name="bus_online">ਔਨਲਾਈਨ</string>
+    <string name="bus_offline">ਔਫਲਾਈਨ</string>
+    <string name="bus_idle">ਸੁਸਤ</string>
+    <string name="high_occupancy">ਜ਼ਿਆਦਾ ਯਾਤਰੀ</string>
+    <string name="medium_occupancy">ਮੱਧਮ ਯਾਤਰੀ</string>
+    <string name="low_occupancy">ਘੱਟ ਯਾਤਰੀ</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">ਨੈਵੀਗੇਸ਼ਨ ਡਰਾਅਰ ਖੋਲ੍ਹੋ</string>
+    <string name="navigation_drawer_close">ਨੈਵੀਗੇਸ਼ਨ ਡਰਾਅਰ ਬੰਦ ਕਰੋ</string>
+    
+    <!-- Icons -->
+    <string name="ic_sms">SMS</string>
+    <string name="ic_schedule">ਸਮਾਂ ਸਾਰਣੀ</string>
+    <string name="ic_favorite">ਪਸੰਦੀਦਾ</string>
+    <string name="ic_person">ਵਿਅਕਤੀ</string>
+    <string name="ic_settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="ic_help">ਮਦਦ</string>
+    <string name="ic_info">ਜਾਣਕਾਰੀ</string>
+    <string name="ic_copyright">ਕਾਪੀਰਾਈਟ</string>
+    
+    <!-- Additional Features -->
+    <string name="search_history">ਖੋਜ ਇਤਿਹਾਸ</string>
+    <string name="favorite_routes">ਪਸੰਦੀਦਾ ਰੂਟਾਂ</string>
+    <string name="recent_searches">ਹਾਲ ਦੀਆਂ ਖੋਜਾਂ</string>
+    <string name="save_route">ਰੂਟ ਸੇਵ ਕਰੋ</string>
+    <string name="route_saved">ਰੂਟ ਪਸੰਦੀਦਾ ਵਿੱਚ ਸੇਵ ਹੋਇਆ</string>
+    <string name="booking_confirmed">ਬੁੱਕਿੰਗ ਪੁਸ਼ਟੀ</string>
+    <string name="payment_successful">ਭੁਗਤਾਨ ਸਫਲ</string>
+    <string name="ticket_details">ਟਿਕਟ ਵੇਰਵੇ</string>
+    <string name="passenger_count">ਯਾਤਰੀ ਗਿਣਤੀ</string>
+    <string name="select_seats">ਸੀਟਾਂ ਚੁਣੋ</string>
+    <string name="journey_date">ਯਾਤਰਾ ਮਿਤੀ</string>
+    <string name="journey_time">ਯਾਤਰਾ ਸਮਾਂ</string>
+    <string name="total_fare">ਕੁੱਲ ਕਿਰਾਇਆ</string>
+    <string name="pay_now">ਹੁਣੇ ਭੁਗਤਾਨ ਕਰੋ</string>
+    <string name="download_ticket">ਟਿਕਟ ਡਾਊਨਲੋਡ ਕਰੋ</string>
+    <string name="share_ticket">ਟਿਕਟ ਸਾਂਝਾ ਕਰੋ</string>
+    
+    <!-- Date & Time -->
+    <string name="today">ਅੱਜ</string>
+    <string name="tomorrow">ਕੱਲ</string>
+    <string name="select_date">ਮਿਤੀ ਚੁਣੋ</string>
+    <string name="select_time">ਸਮਾਂ ਚੁਣੋ</string>
+    <string name="departure">ਰਵਾਨਗੀ</string>
+    <string name="arrival">ਆਮਦ</string>
+    <string name="duration">ਅਵਧੀ</string>
+    
+    <!-- Notifications -->
+    <string name="bus_arriving">ਬੱਸ %1$s ਮਿੰਟਾਂ ਵਿੱਚ ਆ ਰਹੀ ਹੈ</string>
+    <string name="bus_delayed">ਬੱਸ %1$s ਮਿੰਟ ਲੇਟ ਹੈ</string>
+    <string name="next_bus_info">ਅਗਲੀ ਬੱਸ %1$s ਮਿੰਟ ਵਿੱਚ</string>
+    <string name="enable_notifications">ਸੂਚਨਾਵਾਂ ਚਾਲੂ ਕਰੋ</string>
+    <string name="notification_permission">ਬੱਸ ਦੀ ਜਾਣਕਾਰੀ ਲਈ ਸੂਚਨਾਵਾਂ ਦੀ ਆਗਿਆ ਦਿਓ</string>
+</resources>

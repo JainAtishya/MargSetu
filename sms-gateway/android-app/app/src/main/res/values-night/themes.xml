@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark theme. -->
+    <style name="Base.Theme.MargSetuSMSGateway" parent="Theme.Material3.DayNight">
+        <!-- Dark theme colors. -->
+        <item name="colorPrimary">#6CDB9C</item>
+        <item name="colorOnPrimary">#003825</item>
+        <item name="colorPrimaryContainer">#005138</item>
+        <item name="colorOnPrimaryContainer">#89F8C7</item>
+        <item name="colorSecondary">#B3CCBD</item>
+        <item name="colorOnSecondary">#1F352B</item>
+        <item name="colorSecondaryContainer">#354B40</item>
+        <item name="colorOnSecondaryContainer">#CFE9D9</item>
+        <item name="colorTertiary">#A5CCDF</item>
+        <item name="colorOnTertiary">#0A3444</item>
+        <item name="colorTertiaryContainer">#244C5B</item>
+        <item name="colorOnTertiaryContainer">#C1E8FB</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="colorErrorContainer">#93000A</item>
+        <item name="colorOnErrorContainer">#FFDAD6</item>
+        <item name="colorOutline">#8B938A</item>
+        <item name="colorOnBackground">#E1E3DE</item>
+        <item name="colorSurface">#10140F</item>
+        <item name="colorOnSurface">#E1E3DE</item>
+        <item name="colorSurfaceVariant">#414942</item>
+        <item name="colorOnSurfaceVariant">#C0C9C1</item>
+        <item name="colorSurfaceInverse">#E1E3DE</item>
+        <item name="colorOnSurfaceInverse">#2D322E</item>
+    </style>
+
+    <style name="Theme.MargSetuSMSGateway" parent="Base.Theme.MargSetuSMSGateway" />
+</resources>
